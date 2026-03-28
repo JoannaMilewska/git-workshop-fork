@@ -28,4 +28,5 @@ export class LoginPage {
 return await this.errorMessage.textContent() || '';
 }
   //Comment
+  //new comment
 }
