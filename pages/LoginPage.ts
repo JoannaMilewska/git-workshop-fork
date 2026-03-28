@@ -16,7 +16,7 @@ export class LoginPage {
   async open(): Promise<void> {
     await this.page.goto('/web/index.php/auth/login');
   }
-
+  //coment
   async login(email: string, password: string): Promise<void> {
     await this.emailInput.fill(email);
     await this.passwordInput.fill(password);
