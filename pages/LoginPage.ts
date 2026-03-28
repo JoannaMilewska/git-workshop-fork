@@ -23,4 +23,5 @@ export class LoginPage {
     await this.loginButton.click();
   }
   //Comment
+  //new comment
 }
